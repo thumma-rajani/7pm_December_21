@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-13T13:56:20 IST" name="Default suite" finished-at="2022-01-13T13:56:37 IST" duration-ms="17441">
+    <groups>
+    </groups>
+    <test started-at="2022-01-13T13:56:20 IST" name="Default test" finished-at="2022-01-13T13:56:37 IST" duration-ms="17441">
+      <class name="com.Amazon_Project.Exportreport">
+        <test-method is-config="true" signature="setupsuit()[pri:0, instance:com.Amazon_Project.Exportreport@21282ed8]" started-at="2022-01-13T13:56:19 IST" name="setupsuit" finished-at="2022-01-13T13:56:20 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupsuit -->
+        <test-method is-config="true" signature="startbrowser()[pri:0, instance:com.Amazon_Project.Exportreport@21282ed8]" started-at="2022-01-13T13:56:20 IST" name="startbrowser" finished-at="2022-01-13T13:56:33 IST" duration-ms="13849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startbrowser -->
+        <test-method signature="verify_gmail_link()[pri:0, instance:com.Amazon_Project.Exportreport@21282ed8]" started-at="2022-01-13T13:56:34 IST" name="verify_gmail_link" description="Testcase1" finished-at="2022-01-13T13:56:34 IST" duration-ms="139" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [gmail] but found [Gmail]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [gmail] but found [Gmail]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.Amazon_Project.Exportreport.verify_gmail_link(Exportreport.java:55)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_gmail_link -->
+        <test-method signature="verify_Images_link()[pri:1, instance:com.Amazon_Project.Exportreport@21282ed8]" started-at="2022-01-13T13:56:34 IST" name="verify_Images_link" description="Testcase2" finished-at="2022-01-13T13:56:34 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Images_link -->
+        <test-method is-config="true" signature="closetest()[pri:0, instance:com.Amazon_Project.Exportreport@21282ed8]" started-at="2022-01-13T13:56:34 IST" name="closetest" finished-at="2022-01-13T13:56:37 IST" duration-ms="3245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closetest -->
+      </class> <!-- com.Amazon_Project.Exportreport -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
